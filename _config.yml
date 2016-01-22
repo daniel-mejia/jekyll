@@ -1,0 +1,57 @@
+#url: https://y7kim.github.io
+#baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: Daniel Mejía
+email: design@daniel-mejia.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: FF818F
+  secondary: 50A5DC  
+  secondary-dark: 27627D
+
+# Plugins
+#gems: [jekyll-paginate]
+#paginate: 3
+#paginate_path: "/blog/page:num/"
+gems:
+  - jekyll-redirect-from
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Daniel Mejía 
+      layout: "post"
+      category: design
+      comments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+
