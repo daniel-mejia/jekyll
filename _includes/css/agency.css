@@ -172,12 +172,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.color.primary }};
+    font-size: 1.75em; 
+    font-family: 'futura-pt', 'Questrial',sans-serif;font-style:normal;padding: 17px 65px;background: url("/img/dm-color-logo.svg") 7% center/18% no-repeat; letter-spacing: -1px
 }
 
 .navbar-default .navbar-brand:hover,
@@ -247,6 +248,14 @@ fieldset[disabled] .btn-xl.active {
         -moz-transition: all .3s;
         transition: all .3s;
     }
+    
+    .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus {
+        font-size:2.75em;
+        -webkit-transition:all .3s;
+        -moz-transition:all .3s;
+        transition:all .3s;
+        padding: 18px 80px;
+        background: url("/img/dm-color-logo.svg") left center/20% no-repeat}
 
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
