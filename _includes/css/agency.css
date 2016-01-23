@@ -176,9 +176,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
     font-size: 1.75em; 
-    font-family: 'futura-pt', 'Questrial',sans-serif;font-style:normal;padding: 17px 65px;background: url("/img/dm-color-logo.svg") 7% center/18% no-repeat; letter-spacing: -1px
+    font-family: 'futura-pt', 'Questrial',sans-serif;
+    font-style:normal;
+    padding: 20px 65px;
+    background: url("img/logos/dm-color-logo.svg") 7% center/18% no-repeat; 
+    letter-spacing: -1px
 }
 
 .navbar-default .navbar-brand:hover,
@@ -193,17 +197,17 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.color.primary }};
-    background-color: #{{ site.color.primary }};
+    border-color: #{{ site.color.secondary }};
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #{{ site.color.secondary }};
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.color.primary }};
+    background-color: #fff;
 }
 
 .navbar-default .nav li a {
@@ -211,7 +215,8 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #{{ site.color.secondary }};
+    text-align: center;
 }
 
 .navbar-default .nav li a:hover,
@@ -220,23 +225,23 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.color.primary }};
 }
 
-.navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus {
     border-radius: 0;
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.secondary }};
 }
 
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.primary }};
 }
 
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #fff;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -254,8 +259,8 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition:all .3s;
         -moz-transition:all .3s;
         transition:all .3s;
-        padding: 18px 80px;
-        background: url("/img/dm-color-logo.svg") left center/20% no-repeat}
+        padding: 22px 80px;
+        background: url("img/logos/dm-color-logo.svg") left center/20% no-repeat}
 
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
@@ -263,11 +268,11 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #fff;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 2.25em;
     }
 }
 
