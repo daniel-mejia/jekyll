@@ -181,7 +181,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: 'futura-pt', 'Questrial',sans-serif;
     font-style:normal;
     padding: 20px 65px;
-    background: url("img/logos/dm-color-logo.svg") 7% center/18% no-repeat; 
+    background: url("img/dm-color-logo.svg") 7% center/18% no-repeat; 
     letter-spacing: -1px
 }
 
@@ -260,7 +260,7 @@ fieldset[disabled] .btn-xl.active {
         -moz-transition:all .3s;
         transition:all .3s;
         padding: 22px 80px;
-        background: url("img/logos/dm-color-logo.svg") left center/20% no-repeat}
+        background: url("img/dm-color-logo.svg") left center/20% no-repeat}
 
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
@@ -279,14 +279,6 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url(img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 header .intro-text {
