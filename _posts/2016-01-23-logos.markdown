@@ -1,0 +1,15 @@
+---
+title: Logos
+subtitle: Graphic Design
+layout: default
+modal-id: 4
+date: 2016-01-19
+img: logo-design.png
+thumbnail: logo-design-preview.png
+alt: image-alt
+project-date: January 2016
+client: various
+category: Graphic Design
+description: The logo is an essential part of any business. Every good company should have an equally good logo that represents their brand.
+
+---
