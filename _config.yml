@@ -1,19 +1,17 @@
-#url: https://y7kim.github.io
-#baseurl: /agency-jekyll-theme/
-
 # Site settings
 title: Daniel Mejía
 email: design@daniel-mejia.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-url: "http://daniel-mejia.com" # the base hostname & protocol for your site
+description: "Daniel Mejía is a graphic and web designer based in Puerto Rico. Who specialises in brand development, web design and social media marketing." # the base hostname & protocol for your site
+url: http://daniel-mejia.com
 logo_path: img/logos/dm-color-logo.svg
+year: 2016
 
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: FF818F #FF818F
-  secondary: 50A5DC #50A5DC
-  secondary-dark: 27627D #27627D
+  primary: FF818F 
+  secondary: 50A5DC 
+  secondary-dark: 27627D 
 
 # Plugins
 #gems: [jekyll-paginate]
