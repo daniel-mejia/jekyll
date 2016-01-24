@@ -469,14 +469,17 @@ a.btn.btn-xl {
 
 
 section#contact {
-    background-color: #222;
-    background-image: url(img/map-image.png);
+    background-color: #{{ site.color.secondary-dark }};
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
     color: #fff;
+}
+
+section#contact .section-subheading {
+    color: #bbb;
 }
 
 section#contact .form-group {
