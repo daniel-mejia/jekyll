@@ -36,14 +36,14 @@ a.active {
 }
 
 a {
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.primary }};
 }
 
 h1,
@@ -569,7 +569,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #{{ site.color.secondary-dark }};
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -590,6 +590,17 @@ ul.social-buttons li a:active {
 
 .modal-body .img-responsive {
     max-width: 65%;
+}
+
+.portfolio-modal a {
+    color: #{{ site.color.primary }};
+}
+
+.portfolio-modal a:hover,
+.portfolio-modal a:focus,
+.portfolio-modal a:active,
+.portfolio-modal a.active {
+    color: #{{ site.color.secondary }};
 }
 
 .portfolio-modal .modal-content {

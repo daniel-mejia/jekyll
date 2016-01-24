@@ -47,14 +47,25 @@ defaults:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/_daniel_mejia
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com/l.daniel.mejia
+  - title: instagram
+    url: https://www.instagram.com/_daniel_mejia/
+  - title: pinterest
+    url: https://www.pinterest.com/ldanielmejia/
+#  - title: flickr
+#    url: https://www.flickr.com/
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/users/4505357/daniel-mej%C3%ADa
+#  - title: bitbucket 
+#    url: https://bitbucket.org/daniel-mejia/
+#  - title: github
+#    url: https://github.com/daniel-mejia
+#  - title: behance
+#    url: https://www.behance.net/danielmeji1498
+#  - title: codepen
+#    url: http://codepen.io/daniel-mejia/
+
 
 
