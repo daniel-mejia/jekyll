@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "mailto:design@daniel-mejia.com?Subject=You%20have received%20a%20new%20message%20from%20your%20website%20contact%20form.",
+                url: "mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
