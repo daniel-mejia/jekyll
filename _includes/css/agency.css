@@ -46,7 +46,7 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -329,11 +329,12 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 700;
+    transform: uppercase;
+    font-family: 'futura-pt', 'Questrial',sans-serif;
+    font-size: 5em;
+    font-weight: normal;
     line-height: 50px;
+    letter-spacing: -3px
 }
 
 h1.intro-heading,
@@ -356,11 +357,12 @@ h2.intro-lead-in {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
+        transform: uppercase;
+        font-family: 'futura-pt', 'Questrial',sans-serif;
+        font-size: 8em;
+        font-weight: normal;
         line-height: 75px;
+        letter-spacing: -3px
     }
 }
 
