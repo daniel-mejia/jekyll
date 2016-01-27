@@ -446,6 +446,10 @@ section h3.section-subheading {
     padding: 35px;
     text-align: center;
     }
+    
+    img.img-circle.img-responsive.center-block {
+    max-width: 25%;
+    }
 }
 
 .about-content {
@@ -475,7 +479,6 @@ img.img-circle.img-responsive.center-block {
 .about-content div.center-block {
     margin-top: 65px;
 }
-
 
 
 section#contact {
