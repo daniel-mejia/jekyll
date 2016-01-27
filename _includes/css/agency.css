@@ -224,6 +224,10 @@ fieldset[disabled] .btn-xl.active {
     text-align: center;
 }
 
+.navbar-default .nav li a:hover {
+    color: #{{ site.color.secondary-dark }}
+}
+
 .navbar-default.navbar-shrink .nav li a:hover,
 .navbar-default.navbar-shrink .nav li a:focus {
     outline: 0;
