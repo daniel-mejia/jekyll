@@ -284,6 +284,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+    width: 100%;
 }
 
 header .intro-text {
