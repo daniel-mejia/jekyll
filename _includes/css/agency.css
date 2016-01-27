@@ -224,29 +224,38 @@ fieldset[disabled] .btn-xl.active {
     text-align: center;
 }
 
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-default.navbar-shrink .nav li a:hover,
+.navbar-default.navbar-shrink .nav li a:focus {
     outline: 0;
     color: #{{ site.color.primary }};
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default.navbar-shrink .navbar-nav>.active>a,
+.navbar-default.navbar-shrink .navbar-nav>.active>a:focus {
     border-radius: 3px;
     color: #fff;
     background-color: #{{ site.color.secondary }};
 }
 
-.navbar-default .navbar-nav>.active>a:hover {
+.navbar-default.navbar-shrink .navbar-nav>.active>a:hover {
     color: #fff;
     background-color: #{{ site.color.primary }};
 }
+
+.navbar-default .navbar-nav>a {
+    color: #{{ site.color.secondary }};
+}
+
+a.page-scroll {
+    color: #{{ site.color.secondary }};
+}
+
 
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: #fff;
+        background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -259,13 +268,23 @@ fieldset[disabled] .btn-xl.active {
         transition: all .3s;
     }
     
-    .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus {
+    .navbar-shrink a.navbar-brand.page-scroll {
+        display: inline-block;
+    }
+    
+    a.navbar-brand.page-scroll {
+        display: none;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand, .navbar-default .navbar-brand:focus {
         font-size:2.75em;
         -webkit-transition:all .3s;
         -moz-transition:all .3s;
         transition:all .3s;
         padding: 22px 80px;
-        background: url("img/dm-color-logo.svg") left center/20% no-repeat}
+        background: url("img/dm-color-logo.svg") left center/20% no-repeat;
+    }
+
 
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
@@ -278,6 +297,14 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 2.25em;
+    }
+    
+    .navbar-default .nav li a {
+        color: #fff;
+    }
+    
+    .navbar-default.navbar-shrink .nav li a {
+        color: #{{ site.color.secondary }};
     }
 }
 
@@ -307,6 +334,11 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+
+h1.intro-heading,
+h2.intro-lead-in {
+    color: #fff;
 }
 
 @media(min-width:768px) {
