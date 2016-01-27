@@ -440,13 +440,23 @@ section h3.section-subheading {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+    
+    .about-content {
+    position: relative;
+    padding: 35px;
+    text-align: center;
+    }
+    
+    img.img-circle.img-responsive.center-block {
+    max-width: 25%;
+    }
 }
 
 .about-content {
     position: relative;
-    padding: 35px;
+    padding: 5px;
     text-align: center;
-}
+    }
 
 .timeline-heading h4 {
     margin-top: 10px;
@@ -462,10 +472,13 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
-a.btn.btn-xl.center-block {
-    margin-top: 80px;
+img.img-circle.img-responsive.center-block {
+    margin: 5px auto 35px;
 }
 
+.about-content div.center-block {
+    margin-top: 65px;
+}
 
 
 section#contact {
