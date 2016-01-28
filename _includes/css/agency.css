@@ -246,10 +246,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.color.primary }};
 }
 
-.navbar-default .navbar-nav>a {
-    color: #{{ site.color.secondary }};
-}
-
+.navbar-default .navbar-nav>a,
 a.page-scroll {
     color: #{{ site.color.secondary }};
 }
@@ -543,10 +540,12 @@ section#contact .form-group textarea {
 
 section#contact .form-group input.form-control {
     height: auto;
+    color: #555;
 }
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+    color: #555;
 }
 
 section#contact .form-control:focus {
