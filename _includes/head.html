@@ -6,6 +6,24 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="shortcut icon" type="image/png" href="{{ page.url }}img/dm-favicon.png">
+    
+    <!-- jQuery Simple Parallax -->
+    <script async src="{{ "/js/parallax.min.js" | prepend: site.baseurl }}"></script>
+    
+    <!-- Navbar brand -->
+    <style>
+        .navbar-default .navbar-brand {
+            color: #{{ site.color.secondary }};
+            font-size: 1.75em; 
+            font-family: 'futura-pt', 'Questrial',sans-serif;
+            font-style:normal;
+            padding: 20px 60px;
+            background: url("img/dm-color-logo.svg") 7% center/18% no-repeat; 
+            letter-spacing: -1px
+        }  
+    
+    </style>
+
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
