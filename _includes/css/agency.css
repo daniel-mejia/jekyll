@@ -180,7 +180,15 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
-
+.navbar-default .navbar-brand {
+        color: #{{ site.color.secondary }};
+        font-size: 1.75em; 
+        font-family: 'futura-pt', 'Questrial',sans-serif;
+        font-style:normal;
+        padding: 20px 60px;
+        background: url("img/dm-color-logo.svg") 7% center/18% no-repeat; 
+        letter-spacing: -1px
+} 
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
