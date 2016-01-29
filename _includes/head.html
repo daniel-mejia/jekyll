@@ -6,6 +6,23 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="shortcut icon" type="image/png" href="{{ page.url }}img/dm-favicon.png">
+    
+    <!-- jQuery Simple Parallax -->
+    <script async src="{{ "/js/parallax.min.js" | prepend: site.baseurl }}"></script>
+    
+    <!-- Navbar brand -->
+    <style>
+        .navbar-default .navbar-brand {
+            color: #{{ site.color.secondary }};
+            font-size: 1.75em; 
+            font-family: 'futura-pt', 'Questrial',sans-serif;
+            font-style:normal;
+            padding: 20px 60px;
+            background: url("img/dm-color-logo.svg") 7% center/18% no-repeat; 
+            letter-spacing: -1px
+        }  
+    
+    </style>
 
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -14,10 +31,8 @@
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700italic,700|Droid+Serif:400,400italic,700,700italic|Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     
     <!-- Schema.org markup for Google+ -->
     <meta itemprop="name" content="Daniel Mejía | Designer">
@@ -62,6 +77,7 @@
   ga('create', 'UA-52051608-2', 'auto');
   ga('send', 'pageview');
     </script>
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
