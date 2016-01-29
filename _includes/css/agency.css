@@ -314,6 +314,14 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
+    background-attachment: scroll;
+    background-image: url(img/water-drop-daniel-mejia.svg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 header .intro-text {
@@ -337,6 +345,15 @@ header .intro-text .intro-heading {
     font-weight: normal;
     line-height: 65px;
     letter-spacing: -3px
+}
+
+header img {
+    position: absolute;
+}
+
+header img parallax-window {
+    position: relative;
+    box-sizing: border-box;
 }
 
 h1.intro-heading,
