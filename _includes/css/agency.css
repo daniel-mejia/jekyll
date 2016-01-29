@@ -325,20 +325,19 @@ header {
 }
 
 header .intro-text {
+    margin-bottom: 25px;
     padding-top: 100px;
     padding-bottom: 50px;
     text-shadow: rgb(39, 98, 125) 1px 1px 0px;
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
     transform: uppercase;
     font-family: 'futura-pt', 'Questrial',sans-serif;
     font-size: 5em;
@@ -361,6 +360,7 @@ h2.intro-lead-in {
     color: #fff;
 }
 
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
@@ -368,7 +368,6 @@ h2.intro-lead-in {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 2em;
         line-height: 40px;
