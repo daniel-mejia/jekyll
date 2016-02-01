@@ -17,4 +17,4 @@ gem 'github-markdown'
 gem 'sanitize'
 gem 'github-linguist'
 gem 'RedCloth'
-
+gem 'jekyll-assets'

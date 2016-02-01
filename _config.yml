@@ -19,6 +19,7 @@ color:
 #paginate_path: "/blog/page:num/"
 gems:
   - jekyll-redirect-from
+  - jekyll-assets
 
 # Build settings
 markdown: kramdown
