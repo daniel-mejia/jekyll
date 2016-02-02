@@ -1,5 +1,6 @@
 assets:
-  js_compressor: uglifier
-  css_compressor: sass
-  cache: _cache/assets
-  cachebust: hard
+  compress:
+    css: true
+    js: true
+  cache: .asset-cache
+  digest: true

@@ -68,10 +68,10 @@ social:
 #    url: http://codepen.io/daniel-mejia/
 
 assets:
-  js_compressor:
-  css_compressor:
-  cache:
-  cachebust: none
+  compress:
+    css: false
+    js: false
+  cache: .asset-cache
  
   skip_baseurl_with_cdn: false
   skip_prefix_with_cdn: false
@@ -79,7 +79,7 @@ assets:
   assets:
     - "*.png"
     - "bundle.css"
-  digest: true
+  digest: false
   sources:
     - _assets/css
     - _assets/images
