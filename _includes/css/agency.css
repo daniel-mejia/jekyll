@@ -185,8 +185,8 @@ fieldset[disabled] .btn-xl.active {
     font-size: 1.75em; 
     font-family: 'futura-pt', 'Questrial',sans-serif;
     font-style:normal;
-    padding: 20px 60px;
-    background: url("img/dm-color-logo.svg") 7% center/18% no-repeat; 
+    padding: 22px 65px;
+    background: url("img/dm-color-logo.svg") 7% center/17% no-repeat; 
     letter-spacing: -1px
 }  
 
