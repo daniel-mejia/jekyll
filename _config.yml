@@ -67,10 +67,10 @@ social:
 #    url: http://codepen.io/daniel-mejia/
 
 assets:
-  compress:
-    css: true
-    js: true
-  cache: .asset-cache
+  js_compressor:
+  css_compressor:
+  cache:
+  cachebust: none
  
   skip_baseurl_with_cdn: false
   skip_prefix_with_cdn: false
