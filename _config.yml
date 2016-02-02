@@ -82,13 +82,12 @@ assets:
     - "*.js"
   digest: false
   sources:
-    - _assets/css
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/fonts
-    - _assets/img
-    - _assets/js
+    - _includes/css
+    - img
+    - img/about
+    - img/portfolio
+    - js
+    - css/font-awesome/fonts
   features:
     liquid: false
     automatic_img_size: true
