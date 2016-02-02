@@ -211,6 +211,7 @@ DEPENDENCIES
   rinku
   sanitize
   sass
+  sprockets (~> 3.0)
   uglifier
 
 BUNDLED WITH
