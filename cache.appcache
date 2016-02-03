@@ -1,0 +1,51 @@
+CACHE MANIFEST
+
+#version 1.0 2-2-2016
+
+CACHE:
+
+#images
+http://daniel-mejia.com/img/about/daniel-mejia.JPG
+http://daniel-mejia.com/img/portfolio/editorial-design-preview.png
+http://daniel-mejia.com/img/portfolio/editorial-design.png
+http://daniel-mejia.com/img/portfolio/ink-jet-brand-preview.png
+http://daniel-mejia.com/img/portfolio/ink-jet-brand.png
+http://daniel-mejia.com/img/portfolio/island-publishing-services-layouts-preview.png
+http://daniel-mejia.com/img/portfolio/island-publishing-services-layouts.png
+http://daniel-mejia.com/img/portfolio/logo-design-preview.png
+http://daniel-mejia.com/img/portfolio/logo-design.png
+http://daniel-mejia.com/img/portfolio/poster-design-preview.png
+http://daniel-mejia.com/img/portfolio/poster-design.png
+http://daniel-mejia.com/img/portfolio/zambrana-health-coach-preview.png
+http://daniel-mejia.com/img/portfolio/zambrana-health-coach.png
+
+#internal HTML documents
+http://daniel-mejia.com/
+http://daniel-mejia.com/assets/resume-daniel-mejia-graphic-web-designer.pdf
+http://daniel-mejia.com/target=%22_blank%22
+
+#style sheets
+http://daniel-mejia.com/css/font-awesome/css/font-awesome.min.css
+http://daniel-mejia.com/style.css
+http://fonts.googleapis.com/css?family=Montserrat:400,700
+https://fonts.googleapis.com/css?family=Lato:400,400italic,700italic,700|Droid+Serif:400,400italic,700,700italic|Roboto+Slab:400,100,300,700
+https://fonts.googleapis.com/css?family=Questrial
+
+#style sheet images
+"img/dm-color-logo.svg"
+"img/water-drop-daniel-mejia.svg"
+
+#javascript files
+http://www.google-analytics.com/analytics.js
+http://daniel-mejia.com/js/jquery-1.11.0.js
+http://daniel-mejia.com/js/bootstrap.min.js
+http://daniel-mejia.com/js/jquery.easing.min.js
+http://daniel-mejia.com/js/classie.min.js
+http://daniel-mejia.com/js/cbpAnimatedHeader.js
+http://daniel-mejia.com/js/jqBootstrapValidation.min.js
+http://daniel-mejia.com/js/contact_me.min.js
+http://daniel-mejia.com/js/agency.min.js
+https://use.typekit.net/gjz6giz.js
+
+NETWORK:
+*
