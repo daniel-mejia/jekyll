@@ -7,6 +7,12 @@ logo_path: img/logos/dm-color-logo.svg
 year: 2016
 timezone: America/Puerto_Rico
 
+# 
+exclude:
+    - node_modules
+    
+include: 
+
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
