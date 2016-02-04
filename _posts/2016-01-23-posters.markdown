@@ -6,9 +6,11 @@ modal-id: 5
 date: 2016-01-18
 img: poster-design.png
 thumbnail: poster-design-preview.png
-alt: image-alt
+alt: showcase of a few posters designs
+thumb-alt: active thumbnail preview img that opens window to show examples of poster design
 project-date: January 2016
 client: various
+website: {{ site.baseurl }}
 category: Graphic Design
 description: <p>The Crystal Bay poster was made in Illustrator.</p>
                             <p>The Portugal poster was made in Photoshop.</p>

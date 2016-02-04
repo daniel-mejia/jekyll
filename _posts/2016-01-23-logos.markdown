@@ -5,10 +5,12 @@ layout: default
 modal-id: 4
 date: 2016-01-19
 img: logo-design.png
+alt: showcase of a few logos designed for multiple clients
 thumbnail: logo-design-preview.png
-alt: image-alt
+thumb-alt: active thumbnail preview img that opens window to show examples of logo design
 project-date: January 2016
 client: various
+website: {{ site.baseurl }}
 category: Graphic Design
 description: The logo is an essential part of any business. Every good company should have an equally good logo that represents their brand.
 
