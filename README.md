@@ -1,3 +1,4 @@
 Personal portfolio website for 
-Danie Mejía
+Daniel Mejía
+
 ====================
