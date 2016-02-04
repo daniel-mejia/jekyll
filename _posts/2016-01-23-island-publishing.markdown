@@ -7,7 +7,7 @@ date: 2016-01-22
 img: island-publishing-services-layouts.png
 thumbnail: island-publishing-services-layouts-preview.png
 alt: showcase of a few editorial layouts designed for Island Publishing Services
-thumb-alt: active thumbnail preview img that opens window to show examples of editorial designs made for Island Publishing Services
+thumb-alt: thumbnail preview img, click to open modal window with examples of editorial designs made for Island Publishing Services
 project-date: November 2015
 client: Island Publishing Services 
 website: http://www.bviwelcome.com/

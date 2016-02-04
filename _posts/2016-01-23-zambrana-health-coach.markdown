@@ -7,7 +7,7 @@ date: 2016-01-23
 img: zambrana-health-coach.png
 thumbnail: zambrana-health-coach-preview.png
 alt: showcase of work made for Andrea Zambrana Health Coach
-thumb-alt: active thumbnail preview img that opens window to show example of work made for Andrea Zambrana Health Coach
+thumb-alt: thumbnail preview img, click to open modal window with example of work done for Andrea Zambrana Health Coach
 project-date: June 2015
 client: Zambrana Health Coach
 website: http://www.zambranahealthcoach.com/hsf-programas/
