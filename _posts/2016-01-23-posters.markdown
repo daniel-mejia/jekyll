@@ -12,8 +12,8 @@ project-date: January 2016
 client: various
 website: {{ site.baseurl }}
 category: Graphic Design
-description: <p>The Crystal Bay poster was made in Illustrator.</p>
+description: The Crystal Bay poster was made in Illustrator.</p>
                             <p>The Portugal poster was made in Photoshop.</p>
-                            <p>The Ai Library poster was made in Photoshop with pencil drawings.</p>
+                            <p>The Ai Library poster was made in Photoshop with pencil drawings.
 
 ---
