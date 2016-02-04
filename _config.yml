@@ -2,7 +2,8 @@
 title: Daniel Mejía
 email: design@daniel-mejia.com
 description: "Daniel Mejía is a graphic and web designer based in Puerto Rico. Who specialises in brand development, web design and social media marketing." # the base hostname & protocol for your site
-url: http://daniel-mejia.com
+baseurl: ""
+url: http://127.0.0.1:4000/
 logo_path: img/logos/dm-color-logo.svg
 year: 2016
 timezone: America/Puerto_Rico
@@ -69,4 +70,6 @@ social:
 #    url: https://www.behance.net/danielmeji1498
 #  - title: codepen
 #    url: http://codepen.io/daniel-mejia/
+
+environment: development
 
