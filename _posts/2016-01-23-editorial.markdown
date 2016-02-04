@@ -7,7 +7,7 @@ date: 2016-01-20
 img: editorial-design.png
 thumbnail: editorial-design-preview.png
 alt: showcase of a few editorial layouts designed for print media
-thumb-alt: active thumbnail preview img that opens window to show examples of editorial design work
+thumb-alt: thumbnail preview img, click to open modal window with examples of editorial design work
 project-date: January 2016
 client: various
 website: {{ site.baseurl }}
