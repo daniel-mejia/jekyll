@@ -10,7 +10,8 @@ thumb-alt: thumbnail preview img, click to open modal window with Ink Jet's bran
 alt: Ink Jet Print's brand design example
 project-date: April 2014
 client: Ink Jet Print
-website: {{ site.baseurl }}
+website: http://daniel-mejia.com
+target: _blank
 category: Graphic Design
 description: Print is not dead because Ink Jet Print is alive. At least in my head. Ink Jet is a fictional printing company focused on customer service, quality and speed. It was created by me for the sole purpose of being displayed as a brand.
 

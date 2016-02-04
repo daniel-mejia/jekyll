@@ -7,13 +7,14 @@ date: 2016-01-18
 img: poster-design.png
 thumbnail: poster-design-preview.png
 alt: showcase of a few posters designs
-thumb-alt:thumbnail preview img, click to open modal window with examples of poster design
+thumb-alt: thumbnail preview img, click to open modal window with examples of poster design
 project-date: January 2016
 client: various
-website: {{ site.baseurl }}
+website: http://daniel-mejia.com
+target: _blank
 category: Graphic Design
-description: <p>The Crystal Bay poster was made in Illustrator.</p>
+description: The Crystal Bay poster was made in Illustrator.</p>
                             <p>The Portugal poster was made in Photoshop.</p>
-                            <p>The Ai Library poster was made in Photoshop with pencil drawings.</p>
+                            <p>The Ai Library poster was made in Photoshop with pencil drawings.
 
 ---
