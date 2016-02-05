@@ -39,3 +39,10 @@ Icon
 /_layouts/.jekyll-metadata
 /bower_components/
 /node_modules/
+/_includes/clients.html
+/_includes/services.html
+/_includes/team.html
+/_includes/js.html
+/_layouts/style.css
+/_layouts/style.min.css
+/robots.txt
