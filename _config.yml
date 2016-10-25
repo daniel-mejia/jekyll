@@ -1,72 +1,40 @@
-# Site settings
-title: Daniel Mejía
-email: design@daniel-mejia.com
-description: "Daniel Mejía is a graphic and web designer based in Puerto Rico. Who specialises in brand development, web design and social media marketing." # the base hostname & protocol for your site
-url: http://daniel-mejia.com
-logo_path: img/logos/dm-color-logo.svg
-year: 2016
-timezone: America/Puerto_Rico
+url: http://127.0.0.1:4000/
 
-# 
-exclude:
-    - node_modules
+# Plugin: jekyll-assets
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: FF818F 
-  secondary: 50A5DC 
-  secondary-dark: 27627D 
+assets:
+  cache: false
 
-# Plugins
-#gems: [jekyll-paginate]
-#paginate: 3
-#paginate_path: "/blog/page:num/"
-gems:
-  - jekyll-redirect-from
-  - jekyll-assets
+environment: development
 
-# Build settings
-markdown: kramdown
-permalink: pretty
 
-#Default settings
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
-    values:
-      author: Daniel Mejía 
-      layout: "post"
-      category: design
-      comments: true
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "pages" # previously `post` in Jekyll 2.2.
-    values:
-      layout: "page"
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/_daniel_mejia
-  - title: facebook
-    url: https://www.facebook.com/l.daniel.mejia
-  - title: instagram
-    url: https://www.instagram.com/_daniel_mejia/
-  - title: pinterest
-    url: https://www.pinterest.com/ldanielmejia/
-#  - title: flickr
-#    url: https://www.flickr.com/
-#  - title: stack-overflow
-#    url: http://stackoverflow.com/users/4505357/daniel-mej%C3%ADa
-#  - title: bitbucket 
-#    url: https://bitbucket.org/daniel-mejia/
-#  - title: github
-#    url: https://github.com/daniel-mejia
-#  - title: behance
-#    url: https://www.behance.net/danielmeji1498
-#  - title: codepen
-#    url: http://codepen.io/daniel-mejia/
+# Plugin: jekyll assets
+assets:
+  compress:
+    css: false
+    js: false
+  cache: .asset-cache
+  prefix: "/assets"
+  assets:
+    - "app.js"
+    - "app.css"
+  digest: false
+  sources:
+    - _assets/css
+    - _assets/js
+    - _assets/fonts
+    - _assets/img
+    - _assets/img/*.svg
+    - _assets/img/*.png
+    - _assets/img/**/*.jpg
+    - _assets/img/**/*.png
+  features:
+    liquid: false
+    automatic_img_size: true
+    automatic_img_alt : true
+
+environment: development
+
+
 
