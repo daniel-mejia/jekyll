@@ -284,7 +284,7 @@ a.page-scroll {
         -moz-transition:all .3s;
         transition:all .3s;
         padding: 22px 80px;
-        background: url("img/dm-color-logo.svg") left center/20% no-repeat;
+        background: url("assets/dm-color-logo.svg") left center/20% no-repeat;
     }
 
 
@@ -315,7 +315,7 @@ header {
     color: #fff;
     width: 100%;
     background-attachment: scroll;
-    background-image: url(img/water-drop-daniel-mejia.svg);
+    background-color: #{{ site.color.secondary-dark }};
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
